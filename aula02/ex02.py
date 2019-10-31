@@ -20,8 +20,6 @@ while True:
     if num < 5 :
         num += 1
         continue
-        
-            
      else:
          break       
 

@@ -11,6 +11,8 @@ soma = 0
 
 for numero in lista:
     soma += numero
+
+#rint(soma)
     
 print(lista)
 
