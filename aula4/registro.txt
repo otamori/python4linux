@@ -1,3 +1,4 @@
-
-111.222.333-45;Renato;36;
-111.222.33-46;Carol;31
+55544466689;Joao;joao@gmail.com;AC
+30162842864;Renato;iromato@gmail.com;SP
+32589658745;Carol;carol@gmail.com;PR
+54185962445;Mario;mario@gmail.com;MG
