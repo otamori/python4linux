@@ -7,14 +7,15 @@ class Carro():
         self.cor = cor
         self.velocidade = velocidade
         self.ano = ano
-    def acelera(self):
+
+    def acelerar(self):
         self.velocidade += 10
         
     def frear(self):
         if self.velocidade == 0:
             print('O carro esta parado')
-         else:
-             self.velocidade -= 10   
+        else:
+            self.velocidade -= 10   
         
     
         
@@ -22,13 +23,12 @@ class Carro():
 
 
 fusca = Carro('Fusca', 'Vermelho', 0, 1975)
-brasilia = Carro(''Brasilia), 'Amarela', 0, 1985)
+brasilia = Carro('Brasilia', 'Amarela', 0, 1985)
 verona = Carro()
 print(fusca.modelo)
 print(fusca.cor)
 print(fusca.velocidade)
-print(fusca.ano)
 
-fusca.acelera()
-fusca.acelera()
+fusca.acelerar()
+fusca.acelerar()
 print(fusca.velocidade)        
