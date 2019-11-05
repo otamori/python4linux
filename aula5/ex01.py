@@ -16,7 +16,7 @@ def main():
         if opcao == '1':
             cadastro()
         elif opcao == '2':
-             consulta()
+            consulta()
         elif opcao == '3' :
              break
         else:
@@ -28,11 +28,12 @@ def cadastro():
        dic ['EMAIL'] = input('EMAIL: ')
        dic ['UF'] = input('UF: ') 
        
-       registro = '\n' +dic[CPF] +';' + dic[NOME] +';'+ dic[EMAIL] +';'+ dic[UF] 
-       
+        
+       registro = '\n' + dic['CPF'] + ';' + dic['NOME'] + ';' + dic['EMAIL'] + ';' + dic['UF']
        with open(arq, 'w') as f:
            f.write(registro)
-                   
+         
+           
 def consulta():
     
     dic['CPF'] = input ('Digite o CPF para a busca: ')

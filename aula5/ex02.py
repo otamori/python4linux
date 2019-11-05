@@ -2,7 +2,7 @@
 
 class Carro():
     #construtor
-    def _init(_self, modelo='', cor='', velocidade=0, ano=0):
+    def __init__(self, modelo='', cor='', velocidade=0, ano=0):
         self.modelo = modelo
         self.cor = cor
         self.velocidade = velocidade

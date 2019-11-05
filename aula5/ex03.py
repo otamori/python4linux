@@ -18,7 +18,7 @@ class Onibus():
             self.velocidade -=20
             
     def embarque(self, num_pessoas):
-        if self.capacidade == 45 - num_pessoas:
+        if self.capacidade + num_pessoas > 45:
             print("Onibus cheio")
         else:
             self.capacidade += num_pessoas
