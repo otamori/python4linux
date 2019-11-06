@@ -9,17 +9,17 @@
 from ex04 import *
 
 
-    def 
-            
+def main ():
+    
+    carteira = {}
+    
     while True:
-        print ('Sistema de Cadastro')
-        opcao = input('Escolha a opcao:\n1 - Criar contas\n2- Realizar Operações\n2.1 - Consultar Saldo\n2.2 - Realizar Saque\n2.3 Efetuar Deposito\n2.4 - Fazer Transferência\n3- Sair\n')
+        ops = {
+            '1':criarConta,
+            '2':consultarSaldo,
+            '3': 
+            '4':     
         
-        if opcao == '1':
-            cadastro()
-        elif opcao == '2':
-            consulta()
-        elif opcao == '3' :
-             break
-        else:
-            print('Opção Invalida')
+        } 
+            
+   
